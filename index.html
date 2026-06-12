@@ -2,34 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
     <title>Feliz Cumpleaños</title>
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="mobile.css"
-      media="only screen and (max-width: 768px)"
-    />
   </head>
   <body>
+    <!--Confeti Atras-->
     <canvas id="canvas1"></canvas>
 
     <div class="contenedor">
       <div class="portaretrato-torta-caja">
+        <!-- PortaRetrato -->
         <div class="portaretrato">
           <div class="marco">
+            <!-- La ruta corregida para la foto -->
             <img src="/proyectos/Feliz Cumpleaños/recursos/cumpleanero.jpg" alt="Foto" />
           </div>
           <div class="soporte-marco"></div>
         </div>
 
+        <!--Torta De Cumpleaños-->
         <div class="torta-cumpleaños">
           <div class="torta">
             <div class="chocolate"></div>
@@ -38,6 +31,7 @@
           <div class="llama"></div>
         </div>
 
+        <!--Caja De Regalo-->
         <div class="caja-wrapper">
           <div class="caja">
             <div class="cinta-de-regalo">
@@ -57,12 +51,15 @@
           </div>
         </div>
 
+        <!--Mensaje Feliz Cumpleaños-->
         <div class="happy-birthday">Happy Birthday - Leydi</div>
       </div>
 
+      <!--Mesa-->
       <div class="soporte"></div>
     </div>
 
+    <!-- Carta Modal -->
     <div class="modal-carta" id="modalCarta">
       <div class="contenido-carta">
         <div class="carta">
@@ -78,6 +75,7 @@
       </div>
     </div>
 
+    <!--Confeti Delante-->
     <canvas id="canvas2"></canvas>
 
     <audio id="soplido" src="/proyectos/Feliz Cumpleaños/recursos/soplar1.mp3" preload="auto"></audio>
